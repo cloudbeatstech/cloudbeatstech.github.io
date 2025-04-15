@@ -27,9 +27,18 @@ en: &DEFAULT_EN
       - title: "Responsive Design"
         desc: "We ensure that your website functions seamlessly across all devices"
         icon: fas fa-laptop
-      - title: "AWS Cloud Applications"
-        desc: "We don't just stop at websites. We create AWS web application to streamline your business processes or engage with your audience."
+      - title: "Wordpress websites"
+        desc: "Take your business to the next level with user management and content management system."
+        icon: fa fa-globe
+      - title: "AWS & DevOps consulting"
+        desc: "We don't just stop at websites. We create AWS web application to streamline your business processes"
         icon: fas fa-cloud
+      - title: "Android & IOS app"
+        desc: "We create mobile apps for iphone and android to engage with your audience."
+        icon: fa fa-mobile
+      - title: "Dashboards & Process Automation"
+        desc: "Automate a process to reduce the manual efforts. Also create a dashboard to visualize your data."
+        icon: fas fa-magic
 
   # portfolio:
   #   title: "Portfolio"
@@ -68,12 +77,11 @@ en: &DEFAULT_EN
   #       align: right
   #   end: "Be Part <br> of Our <br> Story!"
 
-  # about:
-  #   title: "About Us"
-  #   text: "our story"
-  #   body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-  #   section: about
-
+  about:
+    title: "About Us"
+    text: "We are a team of experienced professionals with a passion for technology and innovation."
+    body: "The experienced team at cloudbeatstech assist you with your growing digital needs.\n\nWe help you grow your business by delivering innovative **websites**, increasing your **digital presence**, and **streamlining** your day to day activities."
+    section: about
   # clients:
   #   section: clients
   #   max-height: 100px
@@ -95,7 +103,9 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: ""  # "Lorem ipsum or call 123456789"
+    text: "Drop us a note with your *details* and message or questions at:"
+    text1: "info@cloudbeatstech.com"  # "Lorem ipsum or call 123456789"
+    text2: "123456789"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
